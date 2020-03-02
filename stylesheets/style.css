@@ -21,6 +21,10 @@ h1 {
   font-size: 48px;
 }
 
+a {
+  text-decoration: none;
+}
+
 footer a {
   text-decoration: none;
   color: #08c;
@@ -58,10 +62,6 @@ nav img {
   padding: 0;
 }
 
-nav a:hover {
-  background: linear-gradient(#222, #666);
-}
-
 /* Main content properties. */
 main {
   display: flex;
@@ -80,6 +80,10 @@ main a {
 
 h3 a {
   text-decoration: underline;
+}
+
+nav a:hover {
+  background: linear-gradient(#222, #666);
 }
 
 input {
