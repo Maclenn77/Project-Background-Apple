@@ -54,7 +54,10 @@ main {
   text-align: center;
 }
 
-main h1,h2,h3,a {
+main h1,
+h2,
+h3,
+a {
   font-family: helvetica, arial, sans-serif;
   font-weight: 100;
   color: #fff;
