@@ -1,6 +1,6 @@
 # Apple store clone page
 
-> This page is for training how to use background and gradients, and also to order a webpage
+ This page is for training how to use background and gradients, and also to order a webpage. It should look like this [old apple page](https://web.archive.org/web/20140301004610/http://www.apple.com/)
 
 ![screenshot](stylesheets/img/app-screenshot.png)
 
