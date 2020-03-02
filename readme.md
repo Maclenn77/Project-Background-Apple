@@ -2,7 +2,7 @@
 
 > This page is for training how to use background and gradients, and also to order a webpage
 
-![screenshot](stylesheets/img/app_screenshot.png)
+![screenshot](stylesheets/img/app-screenshot.png)
 
 Additional description about the project and its features.
 
