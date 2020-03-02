@@ -40,6 +40,13 @@ h1 {
   font-size: 48px;
 }
 
+main a {
+  text-decoration: none;
+}
+
+h3 a {
+  text-decoration: underline;
+}
 /* Wrapping bottom element */
 .wrapper {
   display: flex;
