@@ -2,6 +2,8 @@
 body {
   margin: 0 3% 0 3%;
 }
+
+/* Navbar position */
 nav {
   background-color: gray;
   position: relative;
@@ -11,8 +13,10 @@ nav {
   z-index: 999;
   top: 80px;
   margin: 0 auto 0 auto;
+  border-radius: 4px;
 }
 
+/* Main content properties. */
 main {
   display: flex;
   flex-direction: column;
@@ -24,6 +28,19 @@ main {
   text-align: center;
 }
 
+main h1,h2,h3,a {
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 100;
+  color: #fff;
+  width: 760px;
+  align-self: center;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+/* Wrapping bottom element */
 .wrapper {
   display: flex;
   width: 100%;
@@ -31,26 +48,24 @@ main {
   height: 200px;
 }
 
+/*Setting size and background images for bottom elements */
 .fig1 {
-  background-image: url("img/promo_30_years.jpg");
   width: 25%;
 }
 
 .fig2 {
-  background-image: url("img/promo_iphone5c.jpg");
   width: 25%;
 }
 
 .fig3 {
-  background-image: url("img/promo_iphone5s.jpg");
   width: 25%;
 }
 
 .fig4 {
-  background-image: url("img/promo_supplier_responsibility.jpg");
   width: 25%;
 }
 
+/* footer elements displayed */
 footer {
   display: flex;
   width: 100%;
