@@ -5,7 +5,7 @@ body {
 
 /* Navbar position */
 nav {
-  background: linear-gradient(#666, #5e5e5e 50%, #707070 50%, #808080);
+  background:   linear-gradient(#666, #5e5e5e 50%, #707070 50%, #808080);
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -17,32 +17,7 @@ nav {
   border-radius: 4px;
 }
 
-h1 {
-  font-size: 48px;
-}
-
-a {
-  text-decoration: none;
-}
-
-footer a {
-  text-decoration: none;
-  color: #08c;
-}
-
-main a,
-h1,
-h2,
-h3 {
-  font-family: helvetica, arial, sans-serif;
-  font-weight: 100;
-  color: #fff;
-  width: 760px;
-  align-self: center;
-}
-
-nav a,
-form {
+nav a,form {
   display: block;
   color: #fff;
   text-align: center;
@@ -62,6 +37,10 @@ nav img {
   padding: 0;
 }
 
+nav a:hover {
+  background: linear-gradient(#222, #666)
+}
+
 /* Main content properties. */
 main {
   display: flex;
@@ -74,16 +53,24 @@ main {
   text-align: center;
 }
 
+main h1,h2,h3,a {
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 100;
+  color: #fff;
+  width: 760px;
+  align-self: center;
+}
+
+h1 {
+  font-size: 48px;
+}
+
 main a {
   text-decoration: none;
 }
 
 h3 a {
   text-decoration: underline;
-}
-
-nav a:hover {
-  background: linear-gradient(#222, #666);
 }
 
 input {
@@ -106,12 +93,10 @@ i {
   color: white;
   font-size: 16px;
 }
-
 .icon {
   font-size: 36px;
   color: #fff;
 }
-
 /* Wrapping bottom element */
 .wrapper {
   display: flex;
@@ -120,7 +105,7 @@ i {
   height: 200px;
 }
 
-/* Setting size and background images for bottom elements */
+/*Setting size and background images for bottom elements */
 .fig1 {
   width: 25%;
 }
@@ -143,6 +128,11 @@ footer {
   width: 100%;
   height: 50px;
   background-color: #fff;
+}
+
+footer a {
+  text-decoration: none;
+  color: #08c;
 }
 
 footer span {
