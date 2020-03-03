@@ -107,6 +107,17 @@ i {
   width: 25%;
 }
 
+nav a,
+form {
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 7px 7px;
+  border: solid 1px #666;
+  border-radius: 2px;
+}
+
 /* footer elements displayed */
 footer {
   display: flex;
@@ -150,17 +161,6 @@ footer a:hover {
 
 nav a:hover {
   background: linear-gradient(#222, #666);
-}
-
-nav a,
-form {
-  display: block;
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
-  padding: 7px 7px;
-  border: solid 1px #666;
-  border-radius: 2px;
 }
 
 nav img {
