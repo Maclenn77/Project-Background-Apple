@@ -21,17 +21,6 @@ a {
   text-decoration: none;
 }
 
-nav a,
-form {
-  display: block;
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
-  padding: 7px 7px;
-  border: solid 1px #666;
-  border-radius: 2px;
-}
-
 .logo {
   padding: 0;
 }
@@ -67,10 +56,6 @@ a {
   color: #fff;
   width: 760px;
   align-self: center;
-}
-
-main a {
-  text-decoration: none;
 }
 
 h3 a {
@@ -171,4 +156,15 @@ footer a:hover {
 
 nav a:hover {
   background: linear-gradient(#222, #666);
+}
+
+nav a,
+form {
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 7px 7px;
+  border: solid 1px #666;
+  border-radius: 2px;
 }
