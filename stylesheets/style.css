@@ -5,7 +5,7 @@ body {
 
 /* Navbar position */
 nav {
-  background:   linear-gradient(#666, #5e5e5e 50%, #707070 50%, #808080);
+  background: linear-gradient(#666, #5e5e5e 50%, #707070 50%, #808080);
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -37,10 +37,6 @@ nav img {
   padding: 0;
 }
 
-nav a:hover {
-  background: linear-gradient(#222, #666)
-}
-
 /* Main content properties. */
 main {
   display: flex;
@@ -53,7 +49,10 @@ main {
   text-align: center;
 }
 
-main h1,h2,h3,a {
+main h1,
+h2,
+h3,
+a {
   font-family: helvetica, arial, sans-serif;
   font-weight: 100;
   color: #fff;
@@ -93,10 +92,12 @@ i {
   color: white;
   font-size: 16px;
 }
+
 .icon {
   font-size: 36px;
   color: #fff;
 }
+
 /* Wrapping bottom element */
 .wrapper {
   display: flex;
@@ -105,7 +106,7 @@ i {
   height: 200px;
 }
 
-/*Setting size and background images for bottom elements */
+/* Setting size and background images for bottom elements */
 .fig1 {
   width: 25%;
 }
@@ -161,4 +162,8 @@ footer a:hover {
   border-right: 1px solid #ccc;
   padding-right: 0.6rem;
   height: 10px;
+}
+
+nav a:hover {
+  background: linear-gradient(#222, #666);
 }
