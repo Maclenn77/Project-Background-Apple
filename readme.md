@@ -22,6 +22,10 @@ To get a local copy up and running follow these simple example steps.
 
 Any web browser will do, Mozilla, Safari, or Chrome.
 
+##Preview
+
+Check preview webpage [here](https://rawcdn.githack.com/Maclenn77/Project-Background-Apple/7336d4943ee32cf4975b4ae309a415b94a9122ac/index.html)
+
 ## Authors
 
 👤 **Juan Paulo Perez Tejada**
