@@ -22,27 +22,6 @@ To get a local copy up and running follow these simple example steps.
 
 Any web browser will do, Mozilla, Safari, or Chrome.
 
-### Setup
-
-None needed drecompress and drag and drop onto browser.
-
-### Install
-
-None needed.
-
-### Usage
-
-Microverse Curriculum.
-
-### Run tests
-
-Text editor and web browser.
-
-### Deployment
-
-Localhost.
-
-
 ## Authors
 
 👤 **Juan Paulo Perez Tejada**
