@@ -22,7 +22,7 @@ a {
 }
 
 .logo {
-  padding: 0;
+  padding: 6px;
 }
 
 /* Main content properties. */
@@ -85,8 +85,8 @@ i {
 /* Wrapping bottom element */
 .wrapper {
   display: flex;
-  width: 100%;
-  justify-content: center;
+  width: 99.4%;
+  justify-content: space-around;
   height: 200px;
 }
 
